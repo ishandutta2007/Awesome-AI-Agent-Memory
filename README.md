@@ -28,7 +28,9 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
-- [SaaS/Hosted Platforms](#saas-products)
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+
+- [SaaS/Hosted Platforms](#saashosted-platforms)
 
 - [Open-Source GitHub Projects](#open-source-github-projects)
 
@@ -38,67 +40,24 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 
 
+## Sector Overview & Market Dynamics
+
+The global AI agent and context memory infrastructure market is estimated at approximately $6.4B to $11.5B (as part of the rapidly growing $180B+ agentic AI trajectory by the mid-2030s, compounding at ~40% CAGR). The market exhibits a bifurcated structure: it is **moderately to highly fragmented** at the developer-tooling and specialized episodic memory layer where agile startups innovate, while remaining **concentrated** at the high-performance vector infrastructure and hyperscaler cloud layers where scale, compute efficiencies, and enterprise compliance create strong competitive moats.
+
 ## SaaS/Hosted Platforms
 
-- **[Zep](https://www.getzep.com/)**  
-
-  Long-term memory platform for LLM applications and agents, providing conversation memory, fact extraction, and retrieval APIs (with open-source components).
-
-
-
-- **[Pinecone](https://www.pinecone.io/)**  
-
-  Fully managed vector database widely used as the embedding and retrieval backbone for agent memory and RAG systems.
-
-
-
-- **[Mem0](https://mem0.ai/)**  
-
-  Memory layer for personalized AI assistants and agents, offering hosted APIs for adding, searching, and managing long-term user/agent memory.
-
-
-
-- **[LangSmith](https://www.langchain.com/langsmith)**  
-
-  LangChain’s commercial platform for tracing, evaluation, and dataset management; often used alongside memory stores for full agent observability.
-
-
-
-- **[Langfuse](https://langfuse.com/)**  
-
-  LLM engineering platform (open-source core with cloud offering) for tracing, evaluation, and analytics of agent runs and memory usage.
-
-
-
-- **[Weaviate Cloud](https://weaviate.io/)**  
-
-  Managed vector database service based on the open-source Weaviate project, used for semantic memory and retrieval in agent systems.
-
-
-
-- **[Qdrant Cloud](https://qdrant.tech/)**  
-
-  Managed offering of the open-source Qdrant vector database, popular for high-performance similarity search and agent memory backends.
-
-
-
-- **[Chroma Cloud / hosted options](https://www.trychroma.com/)**  
-
-  Hosted variants and enterprise support around the open-source Chroma embedding database commonly used for agent and RAG memory.
-
-
-
-- **[Redis Cloud](https://redis.io/cloud/)**  
-
-  Managed Redis service frequently used for session memory, caching, and vector search (Redis Search / Redis Vector) in agent architectures.
-
-
-
-- **[Milvus Managed / Zilliz Cloud](https://zilliz.com/)**  
-
-  Managed Milvus vector database service for large-scale embedding storage and retrieval powering agent memory systems.
-
-
+| Platform | Valuation / Size | Starting Pricing | Free Tier Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| [Redis Cloud](https://redis.io/cloud/) | ~$2.0B (Valuation) | $5/month (Essentials plan; scalable RAM) | 30 MB shared DB, 100 ops/sec, 1 DB, free forever | Managed Redis service frequently used for session memory, caching, and low-latency vector search (Redis Search). |
+| [LangSmith](https://www.langchain.com/langsmith) | ~$1.25B (LangChain valuation) | $39/seat/month (Plus plan; $2.50/1k extra traces) | 1 seat max, 5,000 base traces/month, 14-day retention, free forever | LangChain’s commercial platform for tracing, evaluation, and dataset management across agent runs. |
+| [Pinecone](https://www.pinecone.io/) | ~$750M (Valuation) | $50/month min. usage (Serverless pay-as-you-go) | 2 GB storage (~300k vectors), 2M write units/mo, 1M read units/mo, 5 indexes, AWS us-east-1, free forever | Fully managed serverless vector database widely used as the embedding and retrieval backbone for agent memory. |
+| [Qdrant Cloud](https://qdrant.tech/) | ~$350M–$500M (Est. valuation) | ~$80–$130/month (Standard cluster pricing based on vCPU/RAM) | 1 cluster, 0.5 vCPU, 1 GB RAM, 4 GB disk storage, free forever (no credit card required) | Managed offering of the open-source Qdrant vector database, optimized for high-performance similarity search. |
+| [Weaviate Cloud](https://weaviate.io/) | ~$200M (Valuation) | $45/month minimum (Flex consumption tier) | 1 sandbox cluster, 100,000 objects, 1 GB RAM, 10 GB disk, 2k embeddings/day, free forever | Managed vector database service with native hybrid search, used for semantic memory and retrieval in agent systems. |
+| [Mem0](https://mem0.ai/) | ~$150M (Est. valuation) | $19/month (Starter tier: 50k adds, 5k retrievals) | 10,000 add requests/month, 1,000 retrieval requests/month, 1 project, free forever | Memory layer for personalized AI assistants and agents, offering hosted APIs for long-term user/agent memory. |
+| [Zilliz Cloud](https://zilliz.com/) | ~$113M+ (Venture capital raised) | $99/month (Standard dedicated tier; or serverless pay-as-you-go) | 5 GB storage (~1M vectors), 2.5M vCUs/month, 5 collections, free forever (or 30-day $100 credit trial for dedicated) | Managed Milvus vector database service for large-scale embedding storage and retrieval powering agent memory. |
+| [Chroma Cloud](https://www.trychroma.com/) | ~$75M (Valuation) | ~$2.50/GiB written + $0.33/GiB-mo storage (Pay-as-you-go) | Up to 1M stored embeddings and introductory developer credits, free forever tier | Hosted variant of Chroma embedding database designed for developer-friendly agent memory backends. |
+| [Langfuse](https://langfuse.com/) | Acquired by ClickHouse ($15B valuation; ~$4M seed prior) | $29/month (Core tier; $8 per 100k extra units) | 50,000 events/units per month, unlimited users, free forever | Open-source LLM engineering and observability platform for tracing, evaluation, and analytics of agent memory usage. |
+| [Zep](https://www.getzep.com/) | Seed stage / YC (Undisclosed private valuation) | $125/month (Flex plan: 50,000 credits included) | 10,000 credits/month for prototyping, free forever | Long-term memory platform for LLM applications and agents, providing conversation memory and temporal knowledge graphs. |
 
 ## Open-Source GitHub Projects
 
