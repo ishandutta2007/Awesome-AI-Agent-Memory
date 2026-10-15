@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0d17" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#060913" />
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="subGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#94a3b8" />
+      <stop offset="100%" stop-color="#cbd5e1" />
+    </linearGradient>
+
+    <linearGradient id="glowGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="glowGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.7" opacity="0.6" />
+    </pattern>
+
+    <!-- Filter for subtle drop-shadow -->
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000000" flood-opacity="0.7"/>
+    </filter>
+  </defs>
+
+  <style>
+    .title-text {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      font-size: 52px;
+      letter-spacing: -0.5px;
+    }
+    .subtitle-text {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 500;
+      font-size: 20px;
+      letter-spacing: 0.2px;
+    }
+    .badge-text {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+    }
+    .node-anim-1 {
+      animation: pulse 4s ease-in-out infinite;
+    }
+    .node-anim-2 {
+      animation: pulse 5s ease-in-out infinite 1s;
+    }
+    .node-anim-3 {
+      animation: pulse 4.5s ease-in-out infinite 2s;
+    }
+    .flow-line {
+      stroke-dasharray: 8, 8;
+      animation: dash 25s linear infinite;
+    }
+    @keyframes dash {
+      from { stroke-dashoffset: 500; }
+      to { stroke-dashoffset: 0; }
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 0.4; }
+      50% { transform: scale(1.15); opacity: 0.8; }
+    }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGradient)" />
+  <rect width="1200" height="360" rx="16" fill="url(#grid)" />
+
+  <!-- Ambient Dynamic Glow Spheres in Background (low opacity, will not obstruct text) -->
+  <circle cx="200" cy="80" r="140" fill="url(#glowGrad1)" />
+  <circle cx="1020" cy="280" r="160" fill="url(#glowGrad2)" />
+
+  <!-- Dynamic / Animated Flow Circuit Paths (Background / Middle Layer) -->
+  <g opacity="0.35">
+    <path class="flow-line" d="M 80,60 Q 300,120 600,60 T 1120,60" fill="none" stroke="#38bdf8" stroke-width="2" />
+    <path class="flow-line" d="M 80,300 Q 400,240 700,300 T 1120,290" fill="none" stroke="#a855f7" stroke-width="2" style="animation-direction: reverse;" />
+    <path class="flow-line" d="M 150,180 C 350,110 850,250 1050,180" fill="none" stroke="#6366f1" stroke-width="1.5" />
+    
+    <!-- Dynamic Glowing Connection Points -->
+    <circle cx="300" cy="120" r="4" fill="#38bdf8" />
+    <circle cx="600" cy="60" r="5" fill="#818cf8" />
+    <circle cx="900" cy="120" r="4" fill="#c084fc" />
+    <circle cx="400" cy="240" r="5" fill="#a855f7" />
+    <circle cx="700" cy="300" r="4" fill="#38bdf8" />
+  </g>
+
+  <!-- Dynamic Memory Layer Pills (Subtle, floating in lower perimeter) -->
+  <g transform="translate(180, 290)" opacity="0.85">
+    <rect width="160" height="34" rx="17" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <circle cx="18" cy="17" r="5" fill="#38bdf8" />
+    <text x="32" y="22" fill="#94a3b8" class="badge-text">Episodic Memory</text>
+  </g>
+  <g transform="translate(360, 290)" opacity="0.85">
+    <rect width="170" height="34" rx="17" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <circle cx="18" cy="17" r="5" fill="#818cf8" />
+    <text x="32" y="22" fill="#94a3b8" class="badge-text">Semantic Graphs</text>
+  </g>
+  <g transform="translate(550, 290)" opacity="0.85">
+    <rect width="160" height="34" rx="17" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <circle cx="18" cy="17" r="5" fill="#a855f7" />
+    <text x="32" y="22" fill="#94a3b8" class="badge-text">Vector Embeddings</text>
+  </g>
+  <g transform="translate(730, 290)" opacity="0.85">
+    <rect width="160" height="34" rx="17" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <circle cx="18" cy="17" r="5" fill="#34d399" />
+    <text x="32" y="22" fill="#94a3b8" class="badge-text">Context Stores</text>
+  </g>
+  <g transform="translate(910, 290)" opacity="0.85">
+    <rect width="150" height="34" rx="17" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <circle cx="18" cy="17" r="5" fill="#f43f5e" />
+    <text x="32" y="22" fill="#94a3b8" class="badge-text">Stateful Agents</text>
+  </g>
+
+  <!-- Top Category Tag -->
+  <g transform="translate(480, 50)">
+    <rect width="240" height="28" rx="14" fill="#1e1b4b" stroke="#6366f1" stroke-width="1" />
+    <text x="120" y="19" text-anchor="middle" fill="#a5b4fc" class="badge-text">🧠 AI AGENT MEMORY ECOSYSTEM</text>
+  </g>
+
+  <!-- Foreground Main Title and Subtitle with crisp contrast and shadow protection -->
+  <g filter="url(#shadow)">
+    <text x="600" y="145" text-anchor="middle" fill="url(#textGrad)" class="title-text">
+      Awesome AI Agent Memory
+    </text>
+    <text x="600" y="200" text-anchor="middle" fill="url(#subGrad)" class="subtitle-text">
+      Curated Long-Term Memory, Context Stores, Vector Databases &amp; Agent State Architectures
+    </text>
+    <text x="600" y="235" text-anchor="middle" fill="#64748b" style="font-family: system-ui, sans-serif; font-size: 15px; font-weight: 500;">
+      A comprehensive landscape of leading SaaS platforms &amp; open-source architectures
+    </text>
+  </g>
+</svg>
