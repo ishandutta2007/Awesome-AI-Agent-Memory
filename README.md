@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-AI-Agent-Memory/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Agent-Memory?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Agent-Memory/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Agent-Memory?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-AI-Agent-Memory/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-AI-Agent-Memory?style=social" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-AI-Agent-Memory/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-AI-Agent-Memory" alt="Open Issues" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-AI-Agent-Memory/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-AI-Agent-Memory" alt="License" /></a>
@@ -88,46 +88,46 @@ The global AI agent and context memory infrastructure market is estimated at app
 
 Sorted descending by GitHub stargazer count:
 
-- **[Mem0](https://github.com/mem0ai/mem0)** [![GitHub stars](https://img.shields.io/github/stars/mem0ai/mem0?style=social&color=white)](https://github.com/mem0ai/mem0/stargazers)  
+- **[Mem0](https://github.com/mem0ai/mem0)** [![GitHub_Stars](https://img.shields.io/github/stars/mem0ai/mem0?style=social&color=white)](https://github.com/mem0ai/mem0/stargazers)  
   The universal memory layer for personalized AI agents and assistants. Provides intuitive APIs to extract, update, search, and recall user/agent memory across multi-turn interactions.
 
-- **[LlamaIndex](https://github.com/run-llama/llama_index)** [![GitHub stars](https://img.shields.io/github/stars/run-llama/llama_index?style=social&color=white)](https://github.com/run-llama/llama_index/stargazers)  
+- **[LlamaIndex](https://github.com/run-llama/llama_index)** [![GitHub_Stars](https://img.shields.io/github/stars/run-llama/llama_index?style=social&color=white)](https://github.com/run-llama/llama_index/stargazers)  
   Comprehensive data framework for LLM applications, featuring modular chat stores, index structures, and memory modules for context-augmented agents.
 
-- **[Milvus](https://github.com/milvus-io/milvus)** [![GitHub stars](https://img.shields.io/github/stars/milvus-io/milvus?style=social&color=white)](https://github.com/milvus-io/milvus/stargazers)  
+- **[Milvus](https://github.com/milvus-io/milvus)** [![GitHub_Stars](https://img.shields.io/github/stars/milvus-io/milvus?style=social&color=white)](https://github.com/milvus-io/milvus/stargazers)  
   Cloud-native open-source vector database built for massive similarity search and high-throughput embedding retrieval in enterprise agent deployments.
 
-- **[LangGraph](https://github.com/langchain-ai/langgraph)** [![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langgraph?style=social&color=white)](https://github.com/langchain-ai/langgraph/stargazers)  
+- **[LangGraph](https://github.com/langchain-ai/langgraph)** [![GitHub_Stars](https://img.shields.io/github/stars/langchain-ai/langgraph?style=social&color=white)](https://github.com/langchain-ai/langgraph/stargazers)  
   Stateful agent orchestration framework with native checkpointing, cyclical execution graphs, and time-travel memory management for durable multi-agent workflows.
 
-- **[Phidata](https://github.com/phidatahq/phidata)** [![GitHub stars](https://img.shields.io/github/stars/phidatahq/phidata?style=social&color=white)](https://github.com/phidatahq/phidata/stargazers)  
+- **[Phidata](https://github.com/phidatahq/phidata)** [![GitHub_Stars](https://img.shields.io/github/stars/phidatahq/phidata?style=social&color=white)](https://github.com/phidatahq/phidata/stargazers)  
   High-performance framework for building multi-modal AI agents with built-in memory, persistent session storage, knowledge bases, and tool calling.
 
-- **[FAISS](https://github.com/facebookresearch/faiss)** [![GitHub stars](https://img.shields.io/github/stars/facebookresearch/faiss?style=social&color=white)](https://github.com/facebookresearch/faiss/stargazers)  
+- **[FAISS](https://github.com/facebookresearch/faiss)** [![GitHub_Stars](https://img.shields.io/github/stars/facebookresearch/faiss?style=social&color=white)](https://github.com/facebookresearch/faiss/stargazers)  
   Meta's gold-standard library for efficient similarity search and clustering of dense vectors, serving as the foundational indexing engine for agent memory architectures.
 
-- **[Langfuse](https://github.com/langfuse/langfuse)** [![GitHub stars](https://img.shields.io/github/stars/langfuse/langfuse?style=social&color=white)](https://github.com/langfuse/langfuse/stargazers)  
+- **[Langfuse](https://github.com/langfuse/langfuse)** [![GitHub_Stars](https://img.shields.io/github/stars/langfuse/langfuse?style=social&color=white)](https://github.com/langfuse/langfuse/stargazers)  
   Open-source LLM engineering platform providing deep observability, memory session tracing, prompt management, and evaluation for complex agent pipelines.
 
-- **[Qdrant](https://github.com/qdrant/qdrant)** [![GitHub stars](https://img.shields.io/github/stars/qdrant/qdrant?style=social&color=white)](https://github.com/qdrant/qdrant/stargazers)  
+- **[Qdrant](https://github.com/qdrant/qdrant)** [![GitHub_Stars](https://img.shields.io/github/stars/qdrant/qdrant?style=social&color=white)](https://github.com/qdrant/qdrant/stargazers)  
   High-performance vector search engine written in Rust, featuring rich payload filtering, dynamic index segmentation, and high-concurrency retrieval for agent context.
 
-- **[Chroma](https://github.com/chroma-core/chroma)** [![GitHub stars](https://img.shields.io/github/stars/chroma-core/chroma?style=social&color=white)](https://github.com/chroma-core/chroma/stargazers)  
+- **[Chroma](https://github.com/chroma-core/chroma)** [![GitHub_Stars](https://img.shields.io/github/stars/chroma-core/chroma?style=social&color=white)](https://github.com/chroma-core/chroma/stargazers)  
   The AI-native open-source embedding database designed for developer simplicity, local prototyping, and modular agent memory storage.
 
-- **[Letta](https://github.com/letta-ai/letta)** [![GitHub stars](https://img.shields.io/github/stars/letta-ai/letta?style=social&color=white)](https://github.com/letta-ai/letta/stargazers)  
+- **[Letta](https://github.com/letta-ai/letta)** [![GitHub_Stars](https://img.shields.io/github/stars/letta-ai/letta?style=social&color=white)](https://github.com/letta-ai/letta/stargazers)  
   Autonomous agent framework (formerly MemGPT) where agents actively manage their own multi-tiered memory hierarchy, context paging, and persistent state.
 
-- **[pgvector](https://github.com/pgvector/pgvector)** [![GitHub stars](https://img.shields.io/github/stars/pgvector/pgvector?style=social&color=white)](https://github.com/pgvector/pgvector/stargazers)  
+- **[pgvector](https://github.com/pgvector/pgvector)** [![GitHub_Stars](https://img.shields.io/github/stars/pgvector/pgvector?style=social&color=white)](https://github.com/pgvector/pgvector/stargazers)  
   Open-source vector similarity search extension for PostgreSQL, enabling developers to store relational agent data, conversation logs, and vector embeddings in a single database.
 
-- **[Weaviate](https://github.com/weaviate/weaviate)** [![GitHub stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social&color=white)](https://github.com/weaviate/weaviate/stargazers)  
+- **[Weaviate](https://github.com/weaviate/weaviate)** [![GitHub_Stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social&color=white)](https://github.com/weaviate/weaviate/stargazers)  
   Open-source vector database featuring out-of-the-box hybrid search, multi-modal vectorization, and modular integration with major LLM and agent frameworks.
 
-- **[Zep](https://github.com/getzep/zep)** [![GitHub stars](https://img.shields.io/github/stars/getzep/zep?style=social&color=white)](https://github.com/getzep/zep/stargazers)  
+- **[Zep](https://github.com/getzep/zep)** [![GitHub_Stars](https://img.shields.io/github/stars/getzep/zep?style=social&color=white)](https://github.com/getzep/zep/stargazers)  
   Fast, scalable memory service for LLM applications and conversational agents, specializing in temporal knowledge graph extraction, summarization, and semantic search.
 
-- **[Infinity](https://github.com/infiniflow/infinity)** [![GitHub stars](https://img.shields.io/github/stars/infiniflow/infinity?style=social&color=white)](https://github.com/infiniflow/infinity/stargazers)  
+- **[Infinity](https://github.com/infiniflow/infinity)** [![GitHub_Stars](https://img.shields.io/github/stars/infiniflow/infinity?style=social&color=white)](https://github.com/infiniflow/infinity/stargazers)  
   Next-generation AI-native database built for rich multi-modal vector search, sparse-dense hybrid retrieval, and real-time agent memory infrastructure.
 
 ---
