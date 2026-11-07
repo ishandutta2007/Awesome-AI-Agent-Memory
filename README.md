@@ -130,6 +130,9 @@ Sorted descending by GitHub stargazer count:
 - **[Infinity](https://github.com/infiniflow/infinity)** [![GitHub_Stars](https://img.shields.io/github/stars/infiniflow/infinity?style=social&color=white)](https://github.com/infiniflow/infinity/stargazers)  
   Next-generation AI-native database built for rich multi-modal vector search, sparse-dense hybrid retrieval, and real-time agent memory infrastructure.
 
+- **[agent-qa](https://github.com/vostride/agent-qa)** [![GitHub_Stars](https://img.shields.io/github/stars/vostride/agent-qa?style=social&color=white)](https://github.com/vostride/agent-qa)\
+  QA agent for web, Android and iOS with persistent, file-based memidex memory for verified facts, cautions and procedures. Evidence-gated self-improvement updates reusable app knowledge; [FSL-1.1-ALv2](https://github.com/vostride/agent-qa/blob/main/LICENSE.md).
+
 ---
 
 ## 🧩 Memory Architectures & Frameworks
